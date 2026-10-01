@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>BeatZone - Heart rate zones</title>
+<meta name="description" content="Heart rate zones from your age and resting pulse, with the AHA moderate and vigorous ranges. Runs in your browser.">
+<style>
+  * { box-sizing:border-box; margin:0; padding:0; }
+  body { font-family:-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif; background:#240f17; color:#f8e9ee; line-height:1.6; }
+  .wrap { max-width:690px; margin:0 auto; padding:48px 20px 60px; }
+  .logo { font-size:46px; font-weight:800; } .logo span { color:#ff7a95; }
+  .tag { font-size:19px; margin-top:10px; color:#e5cdd5; }
+  .cta { display:inline-block; margin-top:26px; background:#ff7a95; color:#240f17; font-weight:700; padding:14px 30px; border-radius:12px; text-decoration:none; }
+  h2 { font-size:21px; margin:40px 0 10px; } p, li { color:#cdaab5; margin-bottom:8px; } ul { margin-left:20px; }
+  .demo { margin-top:26px; background:#381925; border-radius:14px; padding:18px; display:flex; gap:18px; flex-wrap:wrap; }
+  .demo div { flex:1; min-width:140px; } .demo b { display:block; font-size:30px; color:#ff7a95; }
+  footer { margin-top:50px; font-size:13px; color:#a98692; } a { color:#ff7a95; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="logo">Beat<span>Zone</span></div>
+  <div class="tag">Is that run too easy, about right, or too hard? Enter your age and resting pulse and see exactly which beats per minute mean moderate and which mean vigorous.</div>
+  <a class="cta" href="app.html">Find my zones &rarr;</a>
+  <div class="demo"><div><b>85 to 145</b>bpm target zone at age 50 (AHA)</div><div><b>121 bpm</b>50% of heart rate reserve at 50 with resting 72</div><div><b>3 steps</b>age, resting rate, done</div></div>
+  <h2>What you get</h2>
+  <ul>
+    <li>Estimated max heart rate by the classic 220 minus age or the Tanaka formula</li>
+    <li>Moderate (50 to 70%) and vigorous (70 to 85%) zones in beats per minute</li>
+    <li>Percent of max or the Karvonen heart rate reserve method</li>
+    <li>Type your current pulse and see which zone it is in</li>
+  </ul>
+  <footer>Estimates only, not medical advice. Check with a doctor if you take heart medicine. Sources: <a href="https://www.heart.org/en/healthy-living/exercise-and-physical-activity/fitness-basics/target-heart-rates">AHA</a>, <a href="https://doi.org/10.1016/s0735-1097(00)01054-8">Tanaka et al. 2001</a><br>App Factory project. <a href="https://github.com/iLanis-agent/beatzone">Code</a></footer>
+</div>
+</body>
+</html>
